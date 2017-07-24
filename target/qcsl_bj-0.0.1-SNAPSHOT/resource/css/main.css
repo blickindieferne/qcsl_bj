@@ -1,0 +1,161 @@
+html, body {
+color: #555;
+}
+body, button, input, select, textarea {
+font: 12px/1.5 arial,tahoma,sans-serif;
+}
+
+td,th{word-break : break-all ; }
+html{ overflow-x:hidden;overflow: auto;  background:white;}
+body{ background:white;overflow:auto;height: 100%;}
+table,td,tr,th{font-size:12px;}
+
+.detailPanel .search_table td {
+height: 26px;
+padding-left: 10px;
+}
+
+.search_box, .list_box {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background: #f4f4f4;
+	margin-bottom: 10px;
+	padding: 0 10px;
+}
+
+table {
+border-collapse: collapse;
+border-spacing: 0;
+font-size: 12px;
+}
+
+.search_table {
+	font-size:12px; 
+}
+
+.search_table th{
+	 font-weight:normal;
+	 padding-left: 8px;
+	 vertical-align:middle;
+	 color:#666666;
+	 /**
+	 
+	border:1px solid red;
+	*/
+}
+
+.search_table td{
+	font-weight:normal;
+	padding-left: 3px;
+	vertical-align:middle;
+	 /*
+	border:1px solid red;
+*/
+}
+.search_table select{
+	width:100px;
+}
+
+.title {
+background: #fff;
+padding: 3px 15px;
+border: 1px solid #ccc;
+border-top: 0;
+font-size: 14px;
+color: #000;
+/* float:left; */
+width:80px;
+font-weight: 700;
+margin-bottom: 8px; 
+}
+
+.container .cPanel {
+background: #fff;
+border: 1px solid #ccc;
+margin: 8px 0;
+}
+.detailPanel{
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+.search_panel {
+	border: 1px solid #ccc;
+	margin-bottom:10px;
+	background: white;
+}
+
+.search_table{
+	margin: 20px;
+}
+
+.form_table th{
+	height: 26px;
+	color: #0069ca;
+}
+
+
+.hightlight{
+	font-weight: bold;
+	color: #f00;
+}
+li {
+display: list-item;
+text-align: -webkit-match-parent;
+}
+ul, ol {
+list-style: none;
+}
+ol {
+display: block;
+list-style-type: decimal;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+.pager a,span{
+	margin-right: 10px;
+}
+
+
+/***************预设底价页面的*********************/
+
+.opt_panel, .log_panel,.show_panel {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background: #f4f4f4;
+	margin-bottom: 10px;
+	padding: 0 10px;
+	padding-bottom: 10px;
+}
+
+.opt_a{
+	text-decoration:underline;
+	cursor: pointer;
+	color:blue;
+}
+
+.menu_left{
+	float: left;
+	background-color:#f4f4f4;
+	height: 140px;
+	width: 100px; 
+}
+.menu_left div{
+	margin-left: auto;
+	margin-right: auto;
+	width:75px;
+	text-align:center;
+	font-size: 12px;
+	margin-top: 10px;
+	cursor: pointer;
+	font-style: normal;
+	background-color: #DFDFDF;
+}
+
+.opt_right{
+	margin-left: 105px;
+	
+}
+
